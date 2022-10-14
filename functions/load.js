@@ -1,8 +1,7 @@
 require('../db');
 const { model } = require('mongoose');
 const Servers = require('../catalogs/CatalogAttack.js');
-const Product = require('../catalogs/CatalogUser');
-const Logs = require('../catalogs/CatalogUser.js');
+const { Product, Logs } = require('../catalogs/CatalogUser');
 const ServersLists = require('../catalogs/Servers.js');
 var crypto = require("crypto");
 const { exec } = require("child_process");
